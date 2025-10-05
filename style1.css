@@ -1,0 +1,66 @@
+body {
+    font-family: fantasy;
+    background-color:  #e6e6fa;
+    background-size : cover;
+}
+
+header h1 {
+    background-color: red;
+    color: black;
+    padding: 60px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(52, 211, 8);
+    text-align: center;
+    text-shadow: 2px 3px 4px rgb(22, 194, 217);
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-shadow: 5px 4px 6px rebeccapurple;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #8e4585;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+/* Section styling */
+section {
+    margin: 60px;
+}
+
+section ul {
+    background-color: antiquewhite;
+    color: burlywood;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    border: 2px solid rebeccapurple;
+    box-shadow: 3px 4px 6px plum;
+    display: inline-block;
+    margin: 0 auto;
+    list-style-type: disc;
+}
+
+/* Images */
+img {
+    border: 10px solid palegreen;
+    border-radius: 12px;
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    box-shadow: 2px 3px 7px green;
+}
